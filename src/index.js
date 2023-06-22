@@ -10,6 +10,9 @@ root.render(
     <div>
       This is the current environment variable value{process.env.REACT_APP_VAR}
     </div>
+    <div>
+      This is the current environment variable value{process.env.OCP_VAR}
+    </div>
   </React.StrictMode>
 );
 
